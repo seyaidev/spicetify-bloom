@@ -1500,7 +1500,6 @@ option {
 .now-playing--cover-expanded {
   transform: translateX(0px) !important;
   border-radius: var(--border-radius-1)!important;
-
 }
 
 .playback-bar,
@@ -1574,7 +1573,7 @@ option {
 .main-coverSlotExpanded-container {
   position: fixed;
   top: calc(100% - 320px);
-  left: calc(100% - 220px);
+  left: 110px;
   width: 200px;
   height: 200px;
   visibility: hidden;
@@ -1633,8 +1632,8 @@ option {
 
 .rVxzkDirgkuRPv5V1HYF[aria-hidden="true"],
 .main-coverSlotCollapsed-container[aria-hidden="true"] {
-  left: calc(100vw - 178px);
-  top: -245px;
+  left: 152px;
+  top: -244px;
   width: 200px;
   height: 200px;
   visibility: hidden;
